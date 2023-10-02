@@ -42,40 +42,38 @@ const Navbar = () => {
         <h3
           style={{
             color: Color.blue,
-            fontSize: "1rem",
+            fontSize: "1.25rem",
             fontWeight: 600,
             marginBottom: "0",
           }}
         >
           London Internship Program
         </h3>
-        <p style={{ marginTop: "0rem", fontSize: "0.65rem" }}>London</p>
+        <p style={{ marginTop: "0rem", fontSize: "0.75rem" }}>London</p>
       </div>
       <div>
         <DropdownSelect />
       </div>
 
-      <div style={{ display: "flex", gap: "0.5rem" }}>
+      <div style={{ display: "flex", gap: "1rem" }}>
         <IconWrapper>
-          <Image src={Tag} alt="Tag" width="1.2rem" height="1.2rem" />
+          <Image src={Tag} alt="Tag" width="2rem" height="2rem" />
         </IconWrapper>
         <IconWrapper>
-          <Image src={userClose} alt="Tag" width="1.2rem" height="1.2rem" />
+          <Image src={userClose} alt="Tag" width="2rem" height="2rem" />
         </IconWrapper>
         <IconWrapper>
-          <Image src={userCheck} alt="Tag" width="1.2rem" height="1.2rem" />
+          <Image src={userCheck} alt="Tag" width="2rem" height="2rem" />
         </IconWrapper>
         <IconWrapper>
-          <Image src={userVoice} alt="Tag" width="1.2rem" height="1.2rem" />
+          <Image src={userVoice} alt="Tag" width="2rem" height="2rem" />
         </IconWrapper>
         <Dropdown.Button
           menu={menuProps}
           icon={<DownOutlined />}
           type="primary"
         >
-          {state.isToggleSideBar
-            ? "Video Interview"
-            : "Move To Video Interview"}
+          Move To Video Interview
         </Dropdown.Button>
       </div>
     </div>

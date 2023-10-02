@@ -1,4 +1,3 @@
-import React from 'react'
 import {Checkbox} from "antd"
 import Avater from './Avater'
 import { cadidiate } from 'src/utilities/constant/types'
@@ -17,15 +16,15 @@ const Candidate = ({candidate}:props) => {
         />
       </div>
       <div>
-        <h3 style={{ fontSize: "0.75rem", fontWeight: 600, marginBottom: "0" }}>
+        <h3 style={{ fontSize: "1rem", fontWeight: 600, marginBottom: "0" }}>
           {`${candidate?.firstname} ${candidate?.lastname}`}
         </h3>
-        <p style={{ fontSize: "0.55rem", fontWeight: 600, marginBottom: "0" }}>
+        <p style={{ fontSize: "0.87rem", fontWeight: 600, marginBottom: "0" }}>
           {candidate?.location}
         </p>
         <p
           style={{
-            fontSize: "0.55rem",
+            fontSize: "0.65rem",
             fontWeight: 300,
             marginTop: "0.3rem",
             marginBottom: "0",
@@ -35,7 +34,7 @@ const Candidate = ({candidate}:props) => {
         </p>
         <p
           style={{
-            fontSize: "0.5rem",
+            fontSize: "0.6rem",
             fontWeight: 300,
             color: Color.blue,
             marginTop: "0.3rem",
@@ -50,7 +49,7 @@ const Candidate = ({candidate}:props) => {
               style={{
                 backgroundColor: Color.backgroundColor,
                 color: "#037092",
-                fontSize: "0.5rem",
+                fontSize: "0.6rem",
                 fontWeight: 300,
                 padding: "0.3rem 0.6rem",
                 height: "0.7rem",

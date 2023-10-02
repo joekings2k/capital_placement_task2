@@ -36,7 +36,7 @@ const [activeindex,setActiveIndex]=useState(0)
   return (
     <Select
       allowClear
-      style={{ width: 170, borderRadius: 70, height: 30 }}
+      style={{ width: "20rem", borderRadius: 70 }}
       placeholder="Custom dropdown render"
       defaultActiveFirstOption
       className="dropdown-select"
@@ -63,7 +63,7 @@ const [activeindex,setActiveIndex]=useState(0)
             <span
               style={{
                 color: selectedValue === item.name ? Color.blue : "",
-                fontSize: "0.8rem",
+                fontSize: "1rem",
               }}
             >
               {item.name}
@@ -71,11 +71,12 @@ const [activeindex,setActiveIndex]=useState(0)
 
             <div
               style={{
-                backgroundColor: "#D1DDFF",
+                backgroundColor:
+                  selectedValue === item.name ? "#D1DDFF" : "#F8F8F8",
                 padding: "2px 6px",
                 borderRadius: "40%",
-                color: Color.blue,
-                fontSize: "0.5rem",
+                color: selectedValue === item.name ? Color.blue:"",
+                fontSize: "0.8rem",
               }}
             >
               {item.number}

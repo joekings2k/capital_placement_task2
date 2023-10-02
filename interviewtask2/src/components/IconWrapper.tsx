@@ -12,7 +12,7 @@ const IconWrapper = ({ children }: props) => {
         width: "1.5rem",
         height: "1.5rem",
         boxShadow: boxShadow.iconWrapper,
-        padding:"0.2rem",
+        padding:"0.5rem",
         display:"flex",
         alignItems:"center",
         justifyContent:"center"

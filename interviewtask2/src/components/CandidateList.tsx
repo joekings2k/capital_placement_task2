@@ -35,7 +35,7 @@ const CandidateList = ({Filter}:props) => {
       <header style={styles.containFlexBetween}>
         <div
           style={{
-            fontSize: "0.65rem",
+            fontSize: "0.87rem",
             display: "flex",
             gap: "0.4rem",
             alignItems: "center",
@@ -47,7 +47,7 @@ const CandidateList = ({Filter}:props) => {
 
         <div
           style={{
-            fontSize: "0.65rem",
+            fontSize: "0.87rem",
             display: "flex",
             gap: "0.4rem",
             alignItems: "center",

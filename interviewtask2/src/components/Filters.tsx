@@ -19,8 +19,8 @@ const Filters = ({setFilter}:props) => {
         <Input
           className="filter-input"
           placeholder="Serach by name, edu, exp or #tag"
-          style={{}}
-          onChange={(e)=>(setFilter(e.target.value))}
+          style={{ height: "3rem", border: "1px solid #F3F3F3 " }}
+          onChange={(e) => setFilter(e.target.value)}
         />
       </div>
 
@@ -33,8 +33,8 @@ const Filters = ({setFilter}:props) => {
         }}
       >
         <header style={{ display: "flex", justifyContent: "space-between" }}>
-          <p style={{ fontSize: "0.65rem" }}>Filters </p>
-          <p style={{ fontSize: "0.65rem" }}>0 selected</p>
+          <p style={{ fontSize: "0.87rem" }}>Filters </p>
+          <p style={{ fontSize: "0.87rem" }}>0 selected</p>
         </header>
         <div>
           {filterContent.map((contetnt: string, index: number) => (
@@ -47,7 +47,7 @@ const Filters = ({setFilter}:props) => {
                 borderTop: "1px solid #F2F2F2 ",
               }}
             >
-              <div style={{ fontSize: "0.65rem" }}>
+              <div style={{ fontSize: "0.87rem" }}>
                 <span style={{ marginRight: "0.3rem" }}>
                   <FileTextOutlined />
                 </span>
@@ -57,7 +57,7 @@ const Filters = ({setFilter}:props) => {
                 ""
               ) : (
                 <DownOutlined
-                  style={{ color: Color.blue, fontSize: "0.65rem" }}
+                  style={{ color: Color.blue, fontSize: "0.87rem" }}
                 />
               )}
             </div>

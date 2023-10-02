@@ -24,3 +24,6 @@
 .dropdown-select:where(.css-dev-only-do-not-override-pr0fja).ant-select .ant-select-arrow {
   color: #1D4ED8;
 }
+.filter-input:where(.css-dev-only-do-not-override-pr0fja).ant-input{
+  font-size: 1rem;
+}

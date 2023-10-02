@@ -35,13 +35,19 @@ const SideBar = () => {
         boxShadow: boxShadow.sideBar,
       }}
     >
-      <div>
+      <div
+        style={{
+          display: "flex",
+          flexDirection: "column",
+          justifyContent: "space-between",
+          height: "100%",
+        }}
+      >
         <div
           style={{
             display: "flex",
             flexDirection: "column",
             alignItems: "center",
-            justifyContent:"space-between",
             gap: "0.1rem",
           }}
         >
@@ -63,7 +69,7 @@ const SideBar = () => {
             >
               <IconComponent
                 style={{
-                  fontSize: "2.2rem",
+                  fontSize: "3rem",
                   marginTop: 0,
                   marginBottom: 0,
                   color: activeIndex === index ? Color.blue : "",
@@ -76,11 +82,28 @@ const SideBar = () => {
           ))}
         </div>
 
-        <div style={{display:"flex",flexDirection:"column",alignItems:"center",gap:"0.7rem"}}>
+        <div
+          style={{
+            display: "flex",
+            flexDirection: "column",
+            alignItems: "center",
+            gap: "0.7rem",
+            marginBottom:"1rem",
+          }}
+        >
           <SettingOutlined />
-          <div style={{ backgroundColor: "#D7E5FD ", color: "#B1CDFD",padding:"0.3rem 0.4rem",fontSize:"0.65rem",borderRadius:"50%" }}>AS</div>
+          <div
+            style={{
+              backgroundColor: "#D7E5FD ",
+              color: "#B1CDFD",
+              padding: "0.3rem 0.4rem",
+              fontSize: "0.65rem",
+              borderRadius: "50%",
+            }}
+          >
+            AS
+          </div>
         </div>
-
       </div>
     </div>
   );

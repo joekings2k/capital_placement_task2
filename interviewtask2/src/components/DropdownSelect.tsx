@@ -31,7 +31,6 @@ const [activeindex,setActiveIndex]=useState(0)
     if (!selectedValue && items.length > 0) {
       setSelectedValue(items[activeindex].name);
     }
-    console.log(selectedValue)
   }, [items, selectedValue]);
 
   return (

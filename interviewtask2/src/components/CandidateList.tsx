@@ -1,9 +1,11 @@
 
 import {Checkbox} from "antd"
 import { Color, fakeData } from 'src/utilities/constant';
-import Avater from "./Avater";
 import Candidate from "./Candidate";
-const CandidateList = () => {
+interface props{
+  Filter:string;
+}
+const CandidateList = ({Filter}:props) => {
   const styles = {
     circleNumber: {
       backgroundColor: Color.backgroundColor,
@@ -69,8 +71,10 @@ const CandidateList = () => {
           </span>
         </div>
       </header>
-      {fakeData.map((candidate,index) => (
-        <Candidate key ={index} candidate={candidate} />
+      {fakeData.map((candidate, index) => (
+        <div style={{display:candidate.firstname.toLowerCase().startsWith(Filter)?"":"none"}}>
+          <Candidate key={index} candidate={candidate} />
+        </div>
       ))}
     </div>
   );

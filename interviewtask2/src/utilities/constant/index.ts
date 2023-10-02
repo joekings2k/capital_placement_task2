@@ -19,7 +19,7 @@ export const boxShadow = {
   iconWrapper: "0px 4px 25px 0px rgba(141, 141, 141, 0.05)",
 };
 
-export const fakeData:cadidiate[] = [
+export const fakeData: cadidiate[] = [
   {
     firstname: "Aaliyah",
     lastname: "Sanderson",
@@ -42,10 +42,10 @@ export const fakeData:cadidiate[] = [
     fin: ["New York", "Marketing", "London"],
   },
   {
-    firstname: "John",
-    lastname: "Doe",
-    location: "Bostom, USA",
-    degree: "Bachelor - MIT (2023 - 2023)",
+    firstname: "Thomas Matt",
+    lastname: "Matt",
+    location: "Edinburgh, UK",
+    degree: "Bachelor - Harvard University (2023 - 2023)",
     fin: ["New York", "Marketing", "London"],
   },
   {
@@ -70,10 +70,24 @@ export const fakeData:cadidiate[] = [
     fin: ["New York", "Marketing", "London"],
   },
   {
-    firstname: "Aaliyah",
-    lastname: "Sanderson",
-    location: "Riyadh, Saudi Arabia",
-    degree: "Bachelor - Cambridge University (2023 - 2023)",
+    firstname: "Kamilia ",
+    lastname: "Smith",
+    location: "London, UK",
+    degree: "Bachelor - Boston University (2023 - 2023)",
+    fin: ["New York", "Marketing", "London"],
+  },
+  {
+    firstname: "Kamilia ",
+    lastname: "Smith",
+    location: "London, UK",
+    degree: "Bachelor - Boston University (2023 - 2023)",
+    fin: ["New York", "Marketing", "London"],
+  },
+  {
+    firstname: "Kamilia ",
+    lastname: "Smith",
+    location: "London, UK",
+    degree: "Bachelor - Boston University (2023 - 2023)",
     fin: ["New York", "Marketing", "London"],
   },
   {

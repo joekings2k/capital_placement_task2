@@ -9,8 +9,10 @@ const filterContent: string[] = [
   "Activity Filter",
   "Advanced Filter"
 ];
-
-const Filters = () => {
+interface props {
+  setFilter:(value:string)=>void
+}
+const Filters = ({setFilter}:props) => {
   return (
     <div style={{ width: "32.5%" }}>
       <div>
@@ -18,6 +20,7 @@ const Filters = () => {
           className="filter-input"
           placeholder="Serach by name, edu, exp or #tag"
           style={{}}
+          onChange={(e)=>(setFilter(e.target.value))}
         />
       </div>
 

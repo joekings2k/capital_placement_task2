@@ -1,0 +1,26 @@
+@import "//netdna.bootstrapcdn.com/font-awesome/3.0/css/font-awesome.css";
+.filter-input:where(.css-dev-only-do-not-override-pr0fja).ant-input{
+   font-size: 10px;
+   border-radius: 0.2rem;
+}
+.task-list::after{
+ content: "";
+ position: absolute;
+  left: 0;
+  bottom: 15px;
+  height: 30%;
+  width: 100%;
+  border-left: 1px solid #F3F3F4;
+  border-right: 1px solid #F3F3F4;
+
+}
+.dropdown-select:where(.css-dev-only-do-not-override-pr0fja).ant-select:not(.ant-select-customize-input) .ant-select-selector {
+  border: 0;
+  border-radius: 0.8rem;
+}
+.dropdown-select:where(.css-dev-only-do-not-override-pr0fja).ant-select .ant-select-clear{
+  display: none;
+}
+.dropdown-select:where(.css-dev-only-do-not-override-pr0fja).ant-select .ant-select-arrow {
+  color: #1D4ED8;
+}

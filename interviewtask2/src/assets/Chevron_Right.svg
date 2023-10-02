@@ -1,0 +1,33 @@
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="24" height="24" fill="#F5F5F5"/>
+<g id="Program Application View" clip-path="url(#clip0_0_1)">
+<rect width="1440" height="1024" transform="translate(-24 -620)" fill="#F9FAFF"/>
+<g id="Side Nav" filter="url(#filter0_d_0_1)">
+<rect width="72" height="1024" transform="translate(-24 -620)" fill="white"/>
+<g id="Frame 427319298">
+<g id="Frame 427319297">
+<g id="Frame 427319302">
+<g id="Arrow / Chevron_Right_MD">
+<path id="Vector" d="M14 16L10 12L14 8" stroke="#0B0B0B" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<filter id="filter0_d_0_1" x="-47" y="-639" width="118" height="1070" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="4"/>
+<feGaussianBlur stdDeviation="11.5"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.05 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_0_1"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_0_1" result="shape"/>
+</filter>
+<clipPath id="clip0_0_1">
+<rect width="1440" height="1024" fill="white" transform="translate(-24 -620)"/>
+</clipPath>
+</defs>
+</svg>
